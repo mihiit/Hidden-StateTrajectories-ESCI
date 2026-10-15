@@ -1,0 +1,29 @@
+{
+ "n_reps": 300,
+ "mean_pop_gap_(1-2)": -0.0004499782662151449,
+ "mean_estimated_diff_pooled": 0.0026039374236852364,
+ "reject_delong_p<0.05": 0.13666666666666666,
+ "ci_excludes_0_pooled_bootstrap": 0.15333333333333332,
+ "ci_excludes_0_repmean_bootstrap": 0.12333333333333334,
+ "ci_excludes_0_partition_bootstrap": 0.06,
+ "reject_nadeau_bengio_p<0.05": 0.07,
+ "coverage_of_population_gap_pooled_bootstrap": 0.8766666666666667,
+ "coverage_repmean_bootstrap": 0.91,
+ "coverage_partition_bootstrap": 0.9666666666666667,
+ "coverage_nadeau_bengio": 0.9566666666666667,
+ "rule_gain_ruled_out_pooled": 0.4033333333333333,
+ "rule_gain_ruled_out_partition": 0.2833333333333333,
+ "rule_gain_ruled_out_nadeau_bengio": 0.38,
+ "scenario": "null",
+ "m1": 1.0,
+ "m2": 1.0,
+ "settings": {
+  "n": 900,
+  "prevalence": 0.221,
+  "d": 60,
+  "repeats": 5,
+  "boot": 300,
+  "shared_noise": 0.5
+ },
+ "minutes": 33.15134265025457
+}

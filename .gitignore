@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# VS Code
+.vscode/
+
+# Large data and generated outputs
+acts/
+cache/
+results_v2/
+
+# Environment variables
+.env

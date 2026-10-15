@@ -1,0 +1,11 @@
+{
+ "labels_file": "labels.csv",
+ "sha256": "a7467ae0b2bc1f6ed38436663747148b926188814a66996ea28e6f1f423dc60a",
+ "n": 900,
+ "n_reliable": 199,
+ "n_failure": 701,
+ "kappa_before_adjudication": 0.9665090222664258,
+ "raw_agreement": 0.9877777777777778,
+ "n_adjudicated": 19,
+ "frozen_at_utc": "2026-10-13T11:15:52Z"
+}

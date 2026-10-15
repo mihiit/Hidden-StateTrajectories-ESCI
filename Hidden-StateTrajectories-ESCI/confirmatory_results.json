@@ -1,0 +1,21 @@
+{
+ "source": "console output of: python scripts/rtm_protocol.py --feats-dir acts/ --labels annotation/labels.csv --frozen annotation/FROZEN.json --out results/ ; and results.json paired_vs_A_full_RTM (pasted by the user 2026-10-13)",
+ "n": 900, "n_reliable": 199,
+ "detectors": {
+  "F_final_state":  {"auroc": 0.753, "ci": [0.714, 0.790], "p_vs_chance": 0.0000, "d": 1536},
+  "Llast_B4style":  {"auroc": 0.706, "ci": [0.664, 0.745], "p_vs_chance": 0.0000, "d": 56},
+  "L_layer_axis":   {"auroc": 0.749, "ci": [0.712, 0.786], "p_vs_chance": 0.0000, "d": 168},
+  "T_token_axis":   {"auroc": 0.657, "ci": [0.616, 0.698], "p_vs_chance": 0.0000, "d": 174},
+  "A_full_RTM":     {"auroc": 0.732, "ci": [0.694, 0.769], "p_vs_chance": 0.0000, "d": 342},
+  "len_only":       {"auroc": 0.569, "ci": [0.524, 0.618], "p_vs_chance": 0.0015, "d": 1}
+ },
+ "paired_A_minus": {
+  "F_final_state": {"diff": -0.020789, "ci": [-0.059220, 0.016381], "p_raw": 0.284814, "p_holm": 0.509561},
+  "Llast_B4style": {"diff": 0.026595, "ci": [-0.012111, 0.064931], "p_raw": 0.177426, "p_holm": 0.509561},
+  "L_layer_axis":  {"diff": -0.016810, "ci": [-0.041613, 0.007409], "p_raw": 0.169854, "p_holm": 0.509561},
+  "T_token_axis":  {"diff": 0.075284, "ci": [0.041439, 0.110113], "p_raw": 1.37395e-05, "p_holm": 5.49581e-05},
+  "len_only":      {"diff": 0.163170, "ci": [0.108408, 0.221360], "p_raw": 8.95874e-09, "p_holm": 4.47937e-08}
+ },
+ "labels": {"annotators": "two independent Claude Sonnet 5.5 sub-agent passes + adjudication of 19 items", "kappa_before_adjudication": 0.9665, "raw_agreement": 0.9878, "n_adjudicated": 19},
+ "generation": {"model": "Qwen/Qwen2.5-1.5B-Instruct", "decoding": "greedy, 256 max new tokens, float32, CPU", "prompt": "Answer the question. Think briefly, then state your final answer clearly.\n\nQuestion: {question}", "seed": 2026, "median_tokens": 57, "min_tokens": 3, "max_tokens": 256, "truncated": 8}
+}
